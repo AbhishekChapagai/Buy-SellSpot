@@ -1,0 +1,816 @@
+/* Login page CSS */
+.loginMain{
+    
+    display: flex;
+    width: 100%;
+    height: 690px;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBg{
+
+    background-image: url(../../images/login.svg);
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 400px;
+
+}
+.loginForm {
+
+    background-color: #f9f9f9; 
+    width: 40%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logininput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-style: none;
+  color: #fff;
+  background-color: #222222;
+}
+
+.logininput::placeholder{
+  font-size: 100%;
+  color: #fff;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnSignin{
+  background-color: #f1c935;
+  color: #222222;
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 18px 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+.h1container {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.container {
+  margin-top: 25px;
+  padding: 26px;
+}
+a{
+  text-decoration: none;
+  
+}
+
+@media  screen and (max-width: 541px) {
+  
+  .loginBg{
+
+    width: 0%;
+
+}
+
+.loginForm {
+
+  width: 100%;
+}
+}
+
+/* Signup form CSS */
+.signupMain{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 730px;
+    justify-content: center;
+    align-items: center;
+}
+.signupForm{
+  background-color: #f9f9f9;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.SignupBg{
+
+  background-image: url(../../images/signup.svg);
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 400px;
+
+}
+.signupinput{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-style: none;
+  color: #fff;
+  background-color: #222222;
+}
+
+.signupinput::placeholder{
+  font-size: 100%;
+  color: #fff;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnSignup{
+  background-color: #f1c935;
+  font-size: 16px;
+  color: #222222;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btnSignup:hover{
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 541px) {
+
+  .SignupBg{
+
+    width: 0%;
+  
+  }
+  .signupForm{
+    width: 100%;
+  }
+  
+}
+
+/* Add vehicle CSS */
+.vehicleImg{
+ background-color: #222222;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+.vehicleImg p{
+  font-size: 300%;
+  font-weight: bold;
+  color: #fff;
+}
+@media screen and (max-width: 520px) {
+  .vehicleImg p{
+    font-size: 250%;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 361px) {
+  .vehicleImg p{
+    font-size: 200%;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+
+.addMain{
+  background-color: #fff;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addImage{
+  background-image: url(../../images/addVehicle.svg);
+  background-size: 70% 100%;
+  width: 40%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.addForm{
+  background-color: #f9f9f9;
+  width: 40%;
+  padding: 30px;
+}
+
+@media  screen and (max-width: 541px) {
+  .addImage{
+  
+    width: 0%;
+  }
+  .addForm{
+    width: 100%;
+}
+
+}
+
+.addInput{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  border-style: none;
+  background-color: 	#222222;
+  display: inline-block;
+  color: #fff;
+
+}
+.addInput::placeholder{
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.addInput:hover{
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+}
+
+.fileInput{
+  width: 100%;
+  padding: 12px 20px;
+  height: 42px;
+  border-style: none;
+  color: #fff;
+  background-color: #222222;
+}
+.fileInput:hover{
+  transform: scale(1.06);
+  transition: all 0.2s ease-in-out;
+}
+.btnAdd{
+
+  border-style: none;
+  background-color: #f1c935;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  font-weight: bolder;
+  color: #222222;
+}
+.btnAdd:hover{
+   color: #fff;
+   transform: scale(1.04);
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* browse product */
+
+.displayMain{
+  width: 100%;
+  height: auto;
+}
+.showProduct{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+.product{
+  width: 30%;
+  padding: 20px;
+}
+.product:hover{
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+}
+.product img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.product p{
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.btnView{
+  background-color: #f1c935;
+  color: #222222;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.btnView:hover{
+  background-color: #f2f2f2f2;
+  color: #f1c935;
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid #f1c935;
+}
+
+@media screen and (max-width: 511px) {
+  
+  .showProduct{
+    width: 100%;
+    height: auto;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .product{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+}
+
+/* vehicle details */
+.detailsMain{
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  padding: 20px;
+}
+.vehicleInfo{
+  width: 50%;
+  margin-left: 50px;
+}
+.vehicleInfo img{
+  width: 100%;
+}
+
+.info{
+  margin-left: 20px;
+  width: 40%;
+  background-color: #f9f9f9;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+.info p{
+  font-size: 20px;
+  color: #f1c935;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.detailsLable{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* User Profile */
+
+.userMain{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 2%;
+}
+
+.userbg{
+  width:50%;
+  height: 550px;
+  background-image: url(../../images/userbg.svg);
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+}
+
+.uInfo{
+  background-color: #f9f9f9;
+  width: 50%;
+  /* padding: 1%; */
+  height: 550px;
+  text-align: center;
+  padding: 5%;
+}
+.uInfo label{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.uInfo p{
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.btnEdit{
+  background-color: #f1c935;
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.btnEdit:hover{
+  background-color: #f1c935;
+  color: #fff;
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid #f1c935;
+}
+@media screen and (max-width: 541px) {
+
+  .userbg{
+  
+    width: 0%;
+  
+  }
+  .uInfo{
+    width: 100%;
+  }
+  
+  }
+
+
+
+/* update form CSS */
+.userupdateMain{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 2%;
+}
+
+.userupdatebg{
+  width:50%;
+  height: 550px;
+  background-image: url(../../images/update.svg);
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+}
+
+.updateForm{
+background-color: #f9f9f9;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.updateinput{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+border-style: none;
+color: #fff;
+background-color: #222222;
+}
+
+.updateinput::placeholder{
+font-size: 100%;
+color: #fff;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnUpdate{
+background-color: #f1c935;
+font-size: 16px;
+color: #222222;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+.btnUpdate:hover{
+transform: scale(1.04);
+transition: all 0.2s ease-in-out;
+}
+
+.btnDelete{
+  background-color: #222222;
+  font-size: 16px;
+  color: #fff;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  }
+  
+  .btnDelete:hover{
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+  }
+  
+@media screen and (max-width: 541px) {
+
+.userupdatebg{
+
+  width: 0%;
+
+}
+.updateForm{
+  width: 100%;
+}
+
+}
+
+/* My vehcile CSS */
+.myMain{
+  width: 100%;
+  padding: 2%;
+  justify-content: center;
+  
+}
+.myMain h1{
+  text-align: center;
+  padding: 1%;
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.myVehicleMain{
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.myVehicle label{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.myVehicle p{
+  font-size: 18px;
+  color: #f1c935;
+}
+
+.myVehicle{
+  width: 30%;
+  height: 350px;
+  background-color: #f9f9f9;
+  justify-content: center;
+  padding: 2%;
+  align-items: center;
+}
+.myVehicleImage{
+  width: 100%;
+  height: 200px;
+}
+.btnUpdateVehicle{
+  width: 50%;
+  height: 40px;
+  color: #fff;
+  background-color: #f1c935;
+  border-style: none;
+}
+
+.btnDeleteVehicle{
+  width: 50%;
+  height: 40px;
+  color: #fff;
+  background-color: #222222;
+  border-style: none;
+}
+@media screen and (max-width: 541px) {
+
+  .userbg{
+  
+    width: 0%;
+  
+  }
+  .myVehicle{
+    width: 100%;
+  }
+  
+  }
+
+/* Vehicle update CSS */
+
+.addForm{
+  background-color: #f9f9f9;
+  width: 40%;
+  padding: 30px;
+}
+
+@media  screen and (max-width: 541px) {
+  .addImage{
+  
+    width: 0%;
+  }
+  .addForm{
+    width: 100%;
+}
+
+}
+
+.addInput{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  border-style: none;
+  background-color: 	#222222;
+  display: inline-block;
+  color: #fff;
+
+}
+.addInput::placeholder{
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.addInput:hover{
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+}
+
+.fileInput{
+  width: 100%;
+  padding: 12px 20px;
+  height: 42px;
+  border-style: none;
+  color: #fff;
+  background-color: #222222;
+}
+.fileInput:hover{
+  transform: scale(1.06);
+  transition: all 0.2s ease-in-out;
+}
+.btnAdd{
+
+  border-style: none;
+  background-color: #f1c935;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  font-weight: bolder;
+  color: #222222;
+}
+.btnAdd:hover{
+   color: #fff;
+   transform: scale(1.04);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.addMain{
+  background-color: #fff;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addImage{
+  background-image: url(../../images/addVehicle.svg);
+  background-size: 70% 100%;
+  width: 40%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.addForm{
+  background-color: #f9f9f9;
+  width: 40%;
+  padding: 30px;
+}
+
+@media  screen and (max-width: 541px) {
+  .addImage{
+  
+    width: 0%;
+  }
+  .addForm{
+    width: 100%;
+}
+
+}
+
+.addInput{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  border-style: none;
+  background-color: 	#222222;
+  display: inline-block;
+  color: #fff;
+
+}
+.addInput::placeholder{
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+.addInput:hover{
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+}
+
+.fileInput{
+  width: 100%;
+  padding: 12px 20px;
+  height: 42px;
+  border-style: none;
+  color: #fff;
+  background-color: #222222;
+}
+.fileInput:hover{
+  transform: scale(1.06);
+  transition: all 0.2s ease-in-out;
+}
+.btnAdd{
+
+  border-style: none;
+  background-color: #f1c935;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  font-weight: bolder;
+  color: #222222;
+}
+.btnAdd:hover{
+   color: #fff;
+   transform: scale(1.04);
+  transition: all 0.3s ease-in-out;
+}
+
+/* about us page */
+.aboutMain{
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 2%;
+}
+.aboutMain h1{
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+.aboutus{
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  display: flex;
+}
+.aboutImage{
+  width: 50%;
+  height: 400px;
+  background-image: url(../../images/about.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.about{
+  background-color: #f9f9f9;
+  padding: 5%;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+@media  screen and (max-width: 541px) {
+  .aboutImage{
+  
+    width: 0%;
+  }
+  .about{
+    width: 100%;
+}
+
+}
